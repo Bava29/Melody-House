@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+
+    <!--=========================================
+                    Meta Tags
+    ==========================================-->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=========================================
+                    Title
+    ==========================================-->
+
+    <title>Melody House</title>
+
+    <!--=========================================
+                    Favicon
+    ==========================================-->
+
+    <link rel="icon" type="image/png" href="images/favicon.png">
+
+    <!--=========================================
+                Google Fonts
+    ==========================================-->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Sora:wght@100..800&display=swap"
+        rel="stylesheet">
+
+    <!--=========================================
+                Font Awesome
+    ==========================================-->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <!--=========================================
+                    CSS
+    ==========================================-->
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+
+
+    <!--=========================================
+        Quote Header Start
+==========================================-->
+
+    <header class="mh-quoteheader">
+
+        <div class="container">
+
+            <div class="mh-quoteheader-wrapper">
+
+                <!-- Logo -->
+
+                <a href="index.html" class="mh-quoteheader-logo">
+
+                    <img src="images/logo.png" alt="Melody House">
+
+                </a>
+
+                <!-- Header Actions -->
+
+                <div class="mh-quoteheader-actions">
+
+                    <button class="icon-btn dark-mode-toggle">
+
+                        <i class="fa-solid fa-moon"></i>
+
+                    </button>
+
+                    <button class="icon-btn rtl-toggle">
+
+                        <i class="fa-solid fa-right-left"></i>
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </header>
+
+    <!--=========================================
+        Quote Header End
+==========================================-->
+
+
+    <!--=========================================
+        Quote Introduction Start
+==========================================-->
+
+    <section class="mh-quoteintro-section">
+
+        <div class="container">
+
+            <div class="mh-quoteintro-header">
+
+                <span class="mh-quoteintro-badge">
+
+                    Request a Quote
+
+                </span>
+
+                <h1 class="mh-quoteintro-heading">
+
+                    Choose the Service You Need
+
+                </h1>
+
+                <p class="mh-quoteintro-summary">
+
+                    Select the appropriate enquiry type below and complete the corresponding form. Our team will prepare
+                    a personalized quotation tailored to your requirements.
+
+                </p>
+
+            </div>
+
+            <div class="mh-quoteintro-grid">
+
+                <a href="#purchase-form" class="mh-quoteintro-card">
+
+                    <div class="mh-quoteintro-icon">
+
+                        <i class="fa-solid fa-guitar"></i>
+
+                    </div>
+
+                    <h3 class="mh-quoteintro-title">
+
+                        Purchase Quote
+
+                    </h3>
+
+                    <p class="mh-quoteintro-text">
+
+                        Get pricing for new musical instruments.
+
+                    </p>
+
+                </a>
+
+                <a href="#rental-form" class="mh-quoteintro-card">
+
+                    <div class="mh-quoteintro-icon">
+
+                        <i class="fa-solid fa-screwdriver-wrench"></i>
+
+                    </div>
+
+                    <h3 class="mh-quoteintro-title">
+
+                        Rental & Repair
+
+                    </h3>
+
+                    <p class="mh-quoteintro-text">
+
+                        Request rental plans or repair estimates.
+
+                    </p>
+
+                </a>
+
+                <a href="#school-form" class="mh-quoteintro-card">
+
+                    <div class="mh-quoteintro-icon">
+
+                        <i class="fa-solid fa-school"></i>
+
+                    </div>
+
+                    <h3 class="mh-quoteintro-title">
+
+                        School Orders
+
+                    </h3>
+
+                    <p class="mh-quoteintro-text">
+
+                        Request bulk quotations for institutions.
+
+                    </p>
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--=========================================
+        Quote Introduction End
+==========================================-->
+
+    <!--=========================================
+        Instrument Purchase Form Start
+==========================================-->
+
+    <section class="mh-purchasequote-section" id="purchase-form">
+
+        <div class="container">
+
+            <div class="mh-purchasequote-layout">
+
+                <!-- Purchase Form -->
+
+                <div class="mh-purchasequote-content">
+
+                    <span class="mh-purchasequote-badge">
+
+                        Instrument Purchase
+
+                    </span>
+
+                    <h2 class="mh-purchasequote-heading">
+
+                        Request an Instrument Quote
+
+                    </h2>
+
+                    <p class="mh-purchasequote-summary">
+
+                        Looking for a new musical instrument? Share your preferences and budget, and we'll provide a
+                        personalized quotation with the best options available.
+
+                    </p>
+
+                    <form class="mh-purchasequote-form">
+
+                        <div class="mh-purchasequote-row">
+
+                            <input type="text" class="mh-purchasequote-input" placeholder="Full Name" required>
+
+                            <input type="email" class="mh-purchasequote-input" placeholder="Email Address" required>
+
+                        </div>
+
+                        <div class="mh-purchasequote-row">
+
+                            <input type="tel" class="mh-purchasequote-input" placeholder="Phone Number" required>
+
+                            <select class="mh-purchasequote-input">
+
+                                <option>Select Instrument</option>
+                                <option>Guitar</option>
+                                <option>Keyboard</option>
+                                <option>Drums</option>
+                                <option>Violin</option>
+                                <option>Flute</option>
+
+                            </select>
+
+                        </div>
+
+                        <div class="mh-purchasequote-row">
+
+                            <input type="text" class="mh-purchasequote-input" placeholder="Preferred Brand">
+
+                            <input type="text" class="mh-purchasequote-input" placeholder="Budget">
+
+                        </div>
+
+                        <textarea class="mh-purchasequote-message" placeholder="Additional Requirements"></textarea>
+
+                        <button type="submit" class="primary-btn">
+
+                            Request Quote
+
+                        </button>
+
+                    </form>
+
+                </div>
+
+                <!-- Image -->
+
+                <div class="mh-purchasequote-image">
+
+                    <img src="images/quote-purchase.jpg" alt="Instrument Purchase">
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--=========================================
+        Instrument Purchase Form End
+==========================================-->
+
+
+    <!--=========================================
+        Rental & Repair Form Start
+==========================================-->
+
+    <section class="mh-rentalquote-section" id="rental-form">
+
+        <div class="container">
+
+            <div class="mh-rentalquote-layout">
+
+                <!-- Image -->
+
+                <div class="mh-rentalquote-image">
+
+                    <img src="images/quote-rental.jpg" alt="Rental & Repair">
+
+                </div>
+
+                <!-- Form -->
+
+                <div class="mh-rentalquote-content">
+
+                    <span class="mh-rentalquote-badge">
+
+                        Rental & Repair
+
+                    </span>
+
+                    <h2 class="mh-rentalquote-heading">
+
+                        Request a Rental or Repair Quote
+
+                    </h2>
+
+                    <p class="mh-rentalquote-summary">
+
+                        Need a rental instrument or professional repair service? Share your requirements and we'll
+                        prepare the best quotation for you.
+
+                    </p>
+
+                    <form class="mh-rentalquote-form">
+
+                        <div class="mh-rentalquote-row">
+
+                            <input type="text" class="mh-rentalquote-input" placeholder="Full Name" required>
+
+                            <input type="email" class="mh-rentalquote-input" placeholder="Email Address" required>
+
+                        </div>
+
+                        <div class="mh-rentalquote-row">
+
+                            <input type="tel" class="mh-rentalquote-input" placeholder="Phone Number" required>
+
+                            <select class="mh-rentalquote-input">
+
+                                <option>Select Service</option>
+                                <option>Rental</option>
+                                <option>Repair</option>
+
+                            </select>
+
+                        </div>
+
+                        <div class="mh-rentalquote-row">
+
+                            <input type="text" class="mh-rentalquote-input" placeholder="Instrument Name">
+
+                            <input type="text" class="mh-rentalquote-input" placeholder="Rental Duration / Repair Type">
+
+                        </div>
+
+                        <textarea class="mh-rentalquote-message" placeholder="Describe Your Requirements"></textarea>
+
+                        <button type="submit" class="primary-btn">
+
+                            Request Quote
+
+                        </button>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--=========================================
+        Rental & Repair Form End
+==========================================-->
+
+    <!--=========================================
+        School Bulk Order Form Start
+==========================================-->
+
+    <section class="mh-schoolquote-section" id="school-form">
+
+        <div class="container">
+
+            <div class="mh-schoolquote-layout">
+
+                <!-- Form -->
+
+                <div class="mh-schoolquote-content">
+
+                    <span class="mh-schoolquote-badge">
+
+                        School Bulk Orders
+
+                    </span>
+
+                    <h2 class="mh-schoolquote-heading">
+
+                        Request a School or Institution Quote
+
+                    </h2>
+
+                    <p class="mh-schoolquote-summary">
+
+                        Planning to purchase instruments for your school, college, academy, or institution? Share your
+                        requirements and we'll prepare a customized quotation with the best pricing.
+
+                    </p>
+
+                    <form class="mh-schoolquote-form">
+
+                        <div class="mh-schoolquote-row">
+
+                            <input type="text" class="mh-schoolquote-input" placeholder="School / Institution Name"
+                                required>
+
+                            <input type="text" class="mh-schoolquote-input" placeholder="Contact Person" required>
+
+                        </div>
+
+                        <div class="mh-schoolquote-row">
+
+                            <input type="email" class="mh-schoolquote-input" placeholder="Email Address" required>
+
+                            <input type="tel" class="mh-schoolquote-input" placeholder="Phone Number" required>
+
+                        </div>
+
+                        <div class="mh-schoolquote-row">
+
+                            <input type="text" class="mh-schoolquote-input" placeholder="Required Instruments">
+
+                            <input type="number" class="mh-schoolquote-input" placeholder="Estimated Quantity">
+
+                        </div>
+
+                        <textarea class="mh-schoolquote-message" placeholder="Additional Requirements"></textarea>
+
+                        <button type="submit" class="primary-btn">
+
+                            Request Bulk Quote
+
+                        </button>
+
+                    </form>
+
+                </div>
+
+                <!-- Image -->
+
+                <div class="mh-schoolquote-image">
+
+                    <img src="images/quote-school.jpg" alt="School Bulk Orders">
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--=========================================
+        School Bulk Order Form End
+==========================================-->
+
+    <!--=========================================
+        Quote Promise Start
+==========================================-->
+
+    <section class="mh-quotepromise-section">
+
+        <div class="container">
+
+            <div class="mh-quotepromise-card">
+
+                <div class="mh-quotepromise-icon">
+
+                    <i class="fa-solid fa-paper-plane"></i>
+
+                </div>
+
+                <div class="mh-quotepromise-content">
+
+                    <h2 class="mh-quotepromise-heading">
+
+                        Thank You for Your Enquiry
+
+                    </h2>
+
+                    <p class="mh-quotepromise-summary">
+
+                        Once you submit your request, our team will carefully review your requirements and send you a
+                        personalized quotation within <strong>24 business hours.</strong> If additional information is
+                        needed, we'll contact you using the details you provide.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--=========================================
+        Quote Promise End
+==========================================-->
+
+    <!--=========================================
+                Footer Start
+==========================================-->
+
+    <footer class="footer">
+
+        <div class="container">
+
+            <div class="footer-content">
+
+                <!-- Footer About -->
+
+                <div class="footer-box">
+
+                    <a href="index.html" class="footer-logo">
+
+                        <img src="images/logo-light.png" alt="Melody House Logo">
+
+                    </a>
+
+                    <p>
+
+                        Melody House brings together premium musical instruments, beginner-friendly rentals, expert
+                        repair services, and trusted brands to inspire every musician's journey.
+
+                    </p>
+
+                    <div class="footer-social">
+
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+
+                    </div>
+
+                </div>
+
+                <!-- Quick Links -->
+
+                <div class="footer-box">
+
+                    <h4>Quick Links</h4>
+
+                    <ul>
+
+                        <li><a href="index.html">Home</a></li>
+
+                        <li><a href="about.html">About</a></li>
+
+                        <li><a href="instruments.html">Instruments</a></li>
+
+                        <li><a href="rentals.html">Rentals</a></li>
+
+                        <li><a href="contact.html">Contact</a></li>
+
+                    </ul>
+
+                </div>
+
+                <div class="footer-box">
+
+                    <h4>Our Services</h4>
+
+                    <ul>
+
+                        <li>
+
+                            <a href="rentals.html">
+
+                                Instrument Rentals
+
+                            </a>
+
+                        </li>
+
+                        <li>
+
+                            <a href="request-quote.html">
+
+                                Repair Services
+
+                            </a>
+
+                        </li>
+
+                        <li>
+
+                            <a href="request-quote.html">
+
+                                Trade-In Program
+
+                            </a>
+
+                        </li>
+
+                        <li>
+
+                            <a href="request-quote.html">
+
+                                Bulk School Orders
+
+                            </a>
+
+                        </li>
+
+                        <li>
+
+                            <a href="request-quote.html">
+
+                                Request Quote
+
+                            </a>
+
+                        </li>
+
+                    </ul>
+
+                </div>
+
+                <!-- Contact -->
+
+                <div class="footer-box">
+
+                    <h4>Contact Info</h4>
+
+                    <ul>
+
+                        <li>
+
+                            <i class="fa-solid fa-phone"></i>
+
+                            +91 98765 43210
+
+                        </li>
+
+                        <li>
+
+                            <i class="fa-solid fa-envelope"></i>
+
+                            hello@melodyhouse.com
+
+                        </li>
+
+                        <li>
+
+                            <i class="fa-solid fa-location-dot"></i>
+
+                            Chennai, Tamil Nadu
+
+                        </li>
+
+                        <li>
+
+                            <i class="fa-regular fa-clock"></i>
+
+                            Mon - Sat : 9 AM - 8 PM
+
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+            <div class="footer-bottom">
+
+                <p>
+
+                    © 2026 Melody House. All Rights Reserved.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+    <!--=========================================
+                Footer End
+==========================================-->
+
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
